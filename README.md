@@ -1,11 +1,12 @@
 # Megamat-Datenbank
-Python-Skript um mithilfe von SQL einen Megamat in einer SQLite-Datenbank zu erstellen und anschließend Aktionen damit ausführen, wie zum Beispiel das Ein- und Auslagern von Werkzeugen, den aktuellen Ort des Werkzeugs zu ermitteln oder ein neues Werkzeug hinzuzufügen. 
+---
 
-Background-Story: 
-Vor ein paar Tagen ist der Megamat im Unternehmen in dem mein Vater arbeitet kaputt gegangen. Ein Megamat ist ein automatisch funktionierendes Lagersystem, in dem Werkzeuge und andere Materialien aufbewahrt werden. Mein Vater hatte mir erklärt, dass die Mitarbeiter oft stundenlang damit verbringen nach den Werkzeugen zu suchen, weil sie nicht wissen wo sie sich aktuell befinden.
+Entwicklung eines Python-Skripts zur Erstellung eines Megamats in einer SQLite-Datenbank und zur Durchführung verschiedener Aktionen wie Ein- und Auslagern von Werkzeugen, Lokalisierung des aktuellen Standorts von Werkzeugen und Hinzufügen neuer Werkzeuge.
 
-Ich hatte mich gefragt, ob es nicht eine einfachere Möglichkeit gibt, die Lagerung und den Zugriff auf die Werkzeuge zu organisieren. Ich dachte, dass eine Datenbank hier helfen könnte, um die Positionen der Werkzeuge zu speichern und die Suche zu vereinfachen.
+Hintergrundgeschichte:
+Kürzlich ist im Unternehmen meines Vaters der Megamat ausgefallen. Ein Megamat ist ein automatisiertes Lagersystem, das Werkzeuge und andere Materialien verwaltet. Mein Vater erklärte mir, dass die Mitarbeiter oft viel Zeit damit verbringen, Werkzeuge zu suchen, da sie nicht wissen, wo sie sich befinden.
 
+Das brachte mich dazu, über eine effizientere Möglichkeit zur Organisation der Werkzeuglagerung und -zugriffe nachzudenken. Ich kam zu dem Schluss, dass eine Datenbank dazu beitragen könnte, die Positionen der Werkzeuge zu verfolgen und die Suchzeit zu minimieren.
 So kam ich auf die Idee, eine sehr einfache Version einer Datenbank für einen Megamat zu erstellen. Ich wollte, dass mein Vater und seine Mitarbeiter damit arbeiten können, ohne dass sie viel Zeit in die Einarbeitung in komplexe Datenbank-Tools investieren müssen.
 
 Also habe ich eine Python-Datei geschrieben die main.py heißt welche die Datenbank für den Megamat erstellen würde. Sobald diese Datei ausgeführt wurde, kann man mit aktion.py simple Veränderungen oder Suchanfragen mit der Datenbank anstellen 
